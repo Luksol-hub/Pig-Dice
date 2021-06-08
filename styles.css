@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(175, 238, 238);
+}
+
+div{
+    width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(148, 207, 148);
+    /* background: cover; */
+}
+
+h2{
+    text-align: center;
+    font-family: Verdana;
+    color: rgb(3, 3, 3)
+}
+
+#topbar{
+    padding: 10;
+    margin: 50;
+    height: 80;
+    float: left;
+}
+
+#player{
+    margin: 20px;
+    border: rgb(14, 14, 14);
+    float: left; 
+}
+
+#computer{
+    margin: 20px;
+    border: rgb(8, 8, 8);
+    float: left; 
+}
+
+#dice{
+    padding-top: 300;  
+}
+
+#round{
+    background-color: rgba(136, 226, 45, 0.11);
+}
+
+#throw{
+    background-color: grey;
+    position:  200;
+}
+
+#end{
+    background-color: indigo;
+    position: 300;
+}
+
+#control{
+    margin: 10;
+}
+
+.image{
+    border-style: solid;
+    border-width: 3;
+    border-color: black;
+}
+
+.image-active{
+    border-color: green;
+}
+
+button{
+    margin: 5px;
+}
+

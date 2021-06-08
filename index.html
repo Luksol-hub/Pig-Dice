@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PigDice</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <!-- defer odpala cały skrypt -->
+  </head>
+  <body>
+    <h2>Gra w kości</h2>
+    <div>
+      <div id="topbar">
+        <div id="player">
+          Gracz 1 punkty: 
+          <span id="player-points">0</span>
+           <img id = "image0" class="image image-active"  src="gracz.png" />
+          </div>
+        <div id="computer">
+          Gracz 2 punkty:
+          <span id="computer-points">0</span> 
+           <img id="image1" class="image" src="gracz.png" />
+          </div>
+      </div>
+      <div style="clear: both;"></div>
+      <div id="control">
+        <div id="round">Punkty z rundy: <span id="round-points">0</span></div>
+        <div id="dice">Kostka: <span id="dice-points">0</span></div>
+        <button id="throw">Rzuć kostką</button>
+        <button id="end">Zakończ turę</button>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- pritier ctrl+alt+F -->
